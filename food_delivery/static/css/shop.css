@@ -1,0 +1,125 @@
+*
+{
+  box-sizing: border-box;
+}
+body
+{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
+  background-color: #FFD700;
+}
+.main
+{
+  max-width: 1000px;
+  margin: auto;
+
+}
+h1
+{
+  font-size:50px;
+  word-break: break-all;
+  text-align: center;
+  font-family:'Sacramento', cursive;
+}
+h2
+{
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size:40px;
+}
+.content
+{
+  background-color: #DAA520;
+
+}
+.row
+{
+  background-image:url(https://images.pexels.com/photos/1383776/pexels-photo-1383776.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content {
+  background-color:#DAA520;
+  padding: 10px;
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+.pagination a {
+  color: black;
+  left:  20%;
+  right: 30%;
+  float: left;
+  padding: 3px 15px;
+  margin: 100px 20px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+hr
+{
+  color: black;
+  padding-top: 6px;
+  margin-top: 10px;
+}
+.chef
+{
+  margin-top: 10px;
+}
+.btn {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  text-align: center;
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.YOU {background-color: #4CAF50;} /* Green */
+.YOU:hover {background-color: #46a049;}
+
+.ARE {background-color: #2196F3;} /* Blue */
+.ARE:hover {background: #0b7dda;}
+
+.WHAT{background-color: #ff9800;} /* Orange */
+.WHAT:hover {background: #e68a00;}
+
+.YOU {background-color: #f44336;} /* Red */
+.YOU:hover {background: #da190b;}
+
+.EAT {background-color: #e7e7e7; color: black;} /* Gray */
+.EAT:hover {background: #ddd;}

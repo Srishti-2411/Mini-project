@@ -1,0 +1,13 @@
+body  {
+    background: url(https://images.unsplash.com/photo-1489528792647-46ec39027556?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZvb2QlMjBkZWxpdmVyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
+    height: auto;
+}
+
+card-header {
+    width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -100px;
+}
